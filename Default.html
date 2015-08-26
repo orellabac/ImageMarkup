@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Image Markup</title>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/paper-core.js"></script>
+    <script src="js/paper-core.min.js"></script>
+    <script src="js/paper-full.js"></script>
+    <script src="js/paper-full.min.js"></script>
+    <link href="css/image-markup.css" rel="stylesheet" />
+    <link href="contextMenu/jquery.contextMenu.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div>
+        <div class="img-container"><img src="exam/blank.jpg" /></div>
+        <div class="img-container"><img src="exam/vermeer.jpg" /></div>        
+        <div class="img-container"><img src="exam/scan0010-724x1024.jpg" /></div>
+        <div class="img-container"><img src="exam/scan0011-724x1024.jpg" /></div>
+        <div class="img-container"><img src="exam/scan0012-724x1024.jpg" /></div>
+        <div class="img-container"><img src="exam/scan0013-724x1024.jpg" /></div>
+        <div class="img-container"><img src="exam/scan0014-724x1024.jpg" /></div>
+        <div class="img-container"><img src="exam/scan0015-724x1024.jpg" /></div>
+        <div class="img-container"><img src="exam/scan0016-724x1024.jpg" /></div>
+        <div class="img-container"><img src="exam/scan0017-724x1024.jpg" /></div>
+        <div class="img-container"><img src="exam/scan0018-724x1024.jpg" /></div>
+        <div class="img-container"><img src="exam/scan0019-724x1024.jpg" /></div>
+        <div class="img-container"><img src="exam/scan0020-724x1024.jpg" /></div>
+        <div class="img-container"><img src="exam/scan0021-724x1024.jpg" /></div>
+        <div class="img-container"><img src="exam/scan0022-724x1024.jpg" /></div>
+        <div class="img-container"><img src="exam/scan0023-724x1024.jpg" /></div>
+
+    </div>
+
+    <script src="js/CommandManager.js"></script>
+    <script type="text/javascript" src="contextMenu/jquery.contextMenu.js"></script>
+    <script type="text/javascript" src="contextMenu/jquery.ui.position.js"></script>
+    <script type="text/javascript" src="js/image-markup.js"></script>
+    <script type="text/javascript">
+        var markup = $('.img-container img').imageMarkup({ color: 'red', width: 4, opacity: .5 });
+    </script>
+</body>
+</html>
